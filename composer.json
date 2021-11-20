@@ -15,8 +15,8 @@
     ],
     "require": {
         "php": ">=7.2.9",
-        "fakerphp/faker": "^1.13",
+        "fakerphp/faker": "^1.16",
         "winter/wn-blog-plugin": "^2.0",
-        "numencode/fundamentals-plugin": "dev-master"
+        "numencode/fundamentals-plugin": "dev-main"
     }
 }

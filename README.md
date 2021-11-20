@@ -2,12 +2,18 @@
 
 NumenCode Blog Extension for Winter.Blog plugin for Winter CMS.
 
-# Prerequisites
+## Installation and usage
 
-In order for the plugin to work, you need to have a [Winter CMS Blog Plugin](https://github.com/wintercms/wn-blog-plugin)
-version ^2.0 or higher installed in your [Winter CMS](https://wintercms.com/) application.
+This package requires [Winter CMS Blog Plugin](https://github.com/wintercms/wn-blog-plugin) version ^2.0 or higher
+installed in your [Winter CMS](https://wintercms.com/) application.
 
-# About the plugin
+Install the package with Composer:
+
+```bash
+composer require numencode/blogextension-plugin
+```
+
+## Details
 
 This plugin in an extension which provides some additional features to the original [Winter CMS Blog Plugin](https://github.com/wintercms/wn-blog-plugin),
 such as nicer display of the blog post editing area in the CMS and:
@@ -24,11 +30,23 @@ such as nicer display of the blog post editing area in the CMS and:
 
 All the above features can be enabled in the CMS or used as components, depending on your requirements.
 
+## Changelog
+
+Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
+
+## Contributing
+
+Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
+
+## Security
+
+If you discover any security-related issues, please email info@numencode.com instead of using the issue tracker.
+
 # Author
 
 **NumenCode.BlogExtension** plugin was created by and is maintained by [Blaz Orazem](https://www.orazem.si/).
 
-Please write an email to [info@numencode.com](mailto:info@numencode.com) about all the things concerning this project.
+Please write an email to info@numencode.com about all the things concerning this project.
 
 Follow [@blazorazem](https://twitter.com/blazorazem) on Twitter.
 
