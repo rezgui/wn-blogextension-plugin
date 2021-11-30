@@ -1,10 +1,14 @@
 {
-    "name": "numencode/blogextension-plugin",
+    "name": "numencode/wn-blogextension-plugin",
     "description": "NumenCode Blog Extension plugin for Winter CMS",
     "type": "winter-plugin",
     "homepage": "https://www.numencode.com",
     "keywords": ["winter", "cms", "wintercms", "laravel", "numencode"],
     "license": "MIT",
+    "support": {
+        "issues": "https://github.com/numencode/wn-blogextension-plugin/issues",
+        "source": "https://github.com/numencode/wn-blogextension-plugin"
+    },
     "authors": [
         {
             "name": "Blaz Orazem",
@@ -17,6 +21,6 @@
         "php": ">=7.2.9",
         "fakerphp/faker": "^1.16",
         "winter/wn-blog-plugin": "^2.0",
-        "numencode/fundamentals-plugin": "dev-main"
+        "numencode/wn-fundamentals-plugin": "dev-main"
     }
 }

@@ -10,7 +10,7 @@ installed in your [Winter CMS](https://wintercms.com/) application.
 Install the package with Composer:
 
 ```bash
-composer require numencode/blogextension-plugin
+composer require numencode/wn-blogextension-plugin
 ```
 
 ## Details
@@ -30,15 +30,15 @@ such as nicer display of the blog post editing area in the CMS and:
 
 All the above features can be enabled in the CMS or used as components, depending on your requirements.
 
-## Changelog
+# Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
 
-## Contributing
+# Contributing
 
 Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
-## Security
+# Security
 
 If you discover any security-related issues, please email info@numencode.com instead of using the issue tracker.
 
@@ -54,4 +54,4 @@ Follow [@blazorazem](https://twitter.com/blazorazem) on Twitter.
 
 This project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
 
-[![MIT License](https://img.shields.io/github/license/numencode/blogextension-plugin?label=License&color=blue&style=flat-square&cacheSeconds=600)](https://github.com/numencode/blogextension-plugin/blob/master/LICENSE.md)
+[![MIT License](https://img.shields.io/github/license/numencode/blogextension-plugin?label=License&color=blue&style=flat-square&cacheSeconds=600)](https://github.com/numencode/blogextension-plugin/blob/main/LICENSE.md)
