@@ -22,6 +22,6 @@ class CreateNumencodeBlogextensionFilesTable extends Migration
 
     public function down()
     {
-        Schema::drop('numencode_blogextension_files');
+        Schema::dropIfExists('numencode_blogextension_files');
     }
 }
