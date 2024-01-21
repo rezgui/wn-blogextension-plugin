@@ -3,7 +3,7 @@
 use Schema;
 use Winter\Storm\Database\Updates\Migration;
 
-class CreateNumencodeBlogextensionTagsTable extends Migration
+class CreateNumencodeBlogextensionPostsTagsTable extends Migration
 {
     public function up()
     {
@@ -20,6 +20,6 @@ class CreateNumencodeBlogextensionTagsTable extends Migration
 
     public function down()
     {
-        Schema::drop('numencode_blogextension_posts_tags');
+        Schema::dropIfExists('numencode_blogextension_posts_tags');
     }
 }
