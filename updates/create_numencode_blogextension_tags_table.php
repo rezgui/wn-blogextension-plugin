@@ -19,6 +19,6 @@ class CreateNumencodeBlogextensionTagsTable extends Migration
 
     public function down()
     {
-        Schema::drop('numencode_blogextension_tags');
+        Schema::dropIfExists('numencode_blogextension_tags');
     }
 }
