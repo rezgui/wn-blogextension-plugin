@@ -22,6 +22,6 @@ class CreateNumencodeBlogextensionPicturesTable extends Migration
 
     public function down()
     {
-        Schema::drop('numencode_blogextension_pictures');
+        Schema::dropIfExists('numencode_blogextension_pictures');
     }
 }
